@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us | Codersuresh</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/1e835f02bf.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="iamges/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header class="padding">
+
+        <nav>
+            <div class="menu-items" id="menu">
+                <i class="fas fa-times" id="times" onclick="hideMenu()"></i>
+                <a href="index.html">Home</a>
+                <a href="works.html">Works</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <i class="fas fa-bars" id="bars" onclick="showMenu()"></i>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="contact-container padding">
+
+            <div class="left-contact">
+                <img src="images/vibrant portrait.png" alt="" aria-hidden="true" role="presentation" class="graphics">
+            </div>
+
+            <div class="right-contact">
+                <form action="mailto:najmulbro123@gmail.com" method="POST">
+                    <input type="text" name="name" id="name" placeholder="Coder Suresh">
+                    <input type="email" name="email" id="email" placeholder="example@domain.com">
+                    <textarea name="message" id="message" rows="5" placeholder="Your message here"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="socials">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <p class="footer-text">Copyright &copy;
+            <script>document.write(new Date().getFullYear())</script> <a href="https://github.com/codersuresh"
+                target="_blank">Coder Suresh. </a>All rights reserved
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
