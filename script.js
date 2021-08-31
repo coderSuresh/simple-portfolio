@@ -1,7 +1,5 @@
 var menu = document.getElementById('menu');
 
-menu.style.right = '-200px'
-
 function showMenu() {
     menu.style.right = '0'
 }
